@@ -516,3 +516,26 @@ function validateForms() {
 
 // Initialize validation when DOM is ready
 document.addEventListener('DOMContentLoaded', validateForms);
+
+// DOM ready function - Initialize everything
+document.addEventListener('DOMContentLoaded', function() {
+    console.log('Cozy Matcha Shop initialized');
+    
+    // Initialize navigation
+    initNavigation();
+    
+    // Initialize products
+    initProducts();
+    
+    // Initialize cart
+    initCart();
+    
+    // Initialize modals
+    initModals();
+    
+    // Initialize contact form
+    initContactForm();
+    
+    // Initialize scroll reveal
+    setTimeout(initScrollReveal, 100);
+});
