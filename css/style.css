@@ -1995,4 +1995,15 @@ select:invalid:focus + .validation-message {
     color: #ff6b6b;
     font-size: 0.8rem;
     margin-top: 4px;
+}/* 
+Logo Image Styles */
+.logo-image {
+    max-height: 40px;
+    width: auto;
+}
+
+@media (max-width: 767px) {
+    .logo-image {
+        max-height: 30px;
+    }
 }
