@@ -240,10 +240,10 @@ function initProducts() {
             productCard.className = 'product-card';
             productCard.dataset.id = product.id;
             
-            // Create placeholder image div (in a real implementation, this would be an actual image)
+            // Create product image
             const imageDiv = document.createElement('div');
-            imageDiv.className = 'product-image-placeholder';
-            imageDiv.innerHTML = `<div class="product-image-icon"><i class="fas fa-leaf"></i></div>`;
+            imageDiv.className = 'product-image-container';
+            imageDiv.innerHTML = `<img src="${product.image}" alt="${product.name}" class="product-image">`;
             
             const productInfo = document.createElement('div');
             productInfo.className = 'product-info';
@@ -267,9 +267,7 @@ function initProducts() {
                 // Populate modal with product details
                 modalContent.innerHTML = `
                     <div class="product-details-image">
-                        <div class="product-image-placeholder large">
-                            <div class="product-image-icon"><i class="fas fa-leaf"></i></div>
-                        </div>
+                        <img src="${product.image}" alt="${product.name}" class="product-image">
                     </div>
                     <div class="product-details-info">
                         <h2 class="product-details-name">${product.name}</h2>

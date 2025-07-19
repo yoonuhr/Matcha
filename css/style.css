@@ -2006,4 +2006,42 @@ Logo Image Styles */
     .logo-image {
         max-height: 30px;
     }
+}/* Pr
+oduct Image Container Styles */
+.product-image-container {
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color-secondary);
+}
+
+.product-image {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    transition: transform 0.3s ease;
+}
+
+.product-card:hover .product-image {
+    transform: scale(1.05);
+}
+
+/* Product Details Image Styles */
+.product-details-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color-secondary);
+    border-radius: var(--border-radius-md);
+    overflow: hidden;
+    height: 300px;
+}
+
+.product-details-image img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
 }

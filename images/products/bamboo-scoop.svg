@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300">
+  <rect width="300" height="300" fill="#F5F5DC" />
+  <path d="M100,100 C120,120 150,150 200,180" stroke="#D2B48C" stroke-width="10" stroke-linecap="round" fill="none" />
+  <path d="M200,180 L220,190 C230,195 225,210 215,205 L195,195" fill="#D2B48C" />
+  <text x="150" y="250" font-family="Arial" font-size="16" text-anchor="middle" fill="#4A3728">Bamboo Matcha Scoop</text>
+</svg>

@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300">
+  <rect width="300" height="300" fill="#F5F5DC" />
+  <ellipse cx="150" cy="180" rx="100" ry="30" fill="#A67B5B" />
+  <path d="M70,180 C70,130 230,130 230,180" fill="#A67B5B" />
+  <ellipse cx="150" cy="130" rx="80" ry="20" fill="#8DC63F" opacity="0.7" />
+  <text x="150" y="250" font-family="Arial" font-size="16" text-anchor="middle" fill="#4A3728">Matcha Bowl</text>
+</svg>

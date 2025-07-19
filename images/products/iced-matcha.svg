@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300">
+  <rect width="300" height="300" fill="#F5F5DC" />
+  <path d="M120,60 L180,60 L190,240 L110,240 Z" fill="#FFFFFF" stroke="#CCCCCC" />
+  <path d="M120,60 L180,60 L190,240 L110,240 Z" fill="#8DC63F" opacity="0.5" />
+  <circle cx="150" cy="100" r="10" fill="#FFFFFF" opacity="0.7" />
+  <circle cx="170" cy="130" r="8" fill="#FFFFFF" opacity="0.7" />
+  <circle cx="130" cy="150" r="12" fill="#FFFFFF" opacity="0.7" />
+  <text x="150" y="270" font-family="Arial" font-size="16" text-anchor="middle" fill="#4A3728">Iced Matcha</text>
+</svg>

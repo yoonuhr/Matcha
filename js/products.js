@@ -18,7 +18,7 @@ const products = [
         shortDescription: 'Premium ceremonial grade matcha powder from Uji, Japan.',
         description: 'Our finest ceremonial grade matcha is sourced directly from Uji, Japan. This vibrant green powder has a smooth, umami flavor with subtle sweetness and no bitterness. Perfect for traditional matcha preparation and drinking straight.',
         price: 28.99,
-        image: 'images/products/ceremonial-matcha.jpg',
+        image: 'images/products/ceremonial-matcha.svg',
         category: 'powder',
         featured: true
     },
@@ -28,7 +28,7 @@ const products = [
         shortDescription: 'Versatile culinary grade matcha for cooking and baking.',
         description: 'Our culinary grade matcha is perfect for baking, cooking, and blending into smoothies and lattes. It has a stronger flavor that stands up well to other ingredients while still providing the beautiful green color and health benefits of matcha.',
         price: 19.99,
-        image: 'images/products/culinary-matcha.jpg',
+        image: 'images/products/culinary-matcha.svg',
         category: 'powder',
         featured: false
     },
@@ -38,7 +38,7 @@ const products = [
         shortDescription: 'Ready-to-mix matcha latte blend with natural sweeteners.',
         description: 'Our convenient matcha latte mix combines premium matcha with organic coconut milk powder and a touch of monk fruit sweetener. Just add hot water for an instant, delicious matcha latte anywhere, anytime.',
         price: 15.99,
-        image: 'images/products/latte-mix.jpg',
+        image: 'images/products/latte-mix.svg',
         category: 'drinks',
         featured: true
     },
@@ -48,7 +48,7 @@ const products = [
         shortDescription: 'Traditional bamboo whisk for preparing matcha.',
         description: 'This handcrafted bamboo whisk (chasen) is the traditional tool for preparing matcha. Its 100 prongs are designed to create the perfect froth and break up clumps for a smooth, well-mixed matcha experience.',
         price: 12.99,
-        image: 'images/products/bamboo-whisk.jpg',
+        image: 'images/products/bamboo-whisk.svg',
         category: 'accessories',
         featured: false
     },
@@ -58,7 +58,7 @@ const products = [
         shortDescription: 'Artisan ceramic bowl for traditional matcha preparation.',
         description: 'Our beautiful ceramic matcha bowl (chawan) is handcrafted by artisans to create the perfect vessel for preparing and enjoying matcha. The wide shape and textured interior help create the perfect froth.',
         price: 24.99,
-        image: 'images/products/matcha-bowl.jpg',
+        image: 'images/products/matcha-bowl.svg',
         category: 'accessories',
         featured: true
     },
@@ -68,7 +68,7 @@ const products = [
         shortDescription: 'Everything you need to begin your matcha journey.',
         description: 'The perfect introduction to the world of matcha. This starter kit includes our ceremonial grade matcha powder, bamboo whisk (chasen), bamboo scoop (chashaku), and a ceramic bowl (chawan) - everything you need to prepare matcha the traditional way.',
         price: 59.99,
-        image: 'images/products/starter-kit.jpg',
+        image: 'images/products/starter-kit.svg',
         category: 'gifts',
         featured: true
     },
@@ -78,7 +78,7 @@ const products = [
         shortDescription: 'Airtight tin for keeping matcha fresh.',
         description: 'Keep your matcha fresh and protected from light, moisture, and odors with our airtight matcha storage tin. The double-lid design ensures maximum freshness, preserving the delicate flavors and antioxidants of your matcha.',
         price: 9.99,
-        image: 'images/products/matcha-tin.jpg',
+        image: 'images/products/matcha-tin.svg',
         category: 'accessories',
         featured: false
     },
@@ -88,7 +88,7 @@ const products = [
         shortDescription: 'Refreshing iced matcha in a convenient bottle.',
         description: 'Our ready-to-drink iced matcha is perfect for matcha lovers on the go. Made with our premium matcha and lightly sweetened with organic cane sugar, it\'s a refreshing and energizing drink for any time of day.',
         price: 4.99,
-        image: 'images/products/iced-matcha.jpg',
+        image: 'images/products/iced-matcha.svg',
         category: 'drinks',
         featured: false
     },
@@ -98,7 +98,7 @@ const products = [
         shortDescription: 'Premium gift set with our finest matcha and accessories.',
         description: 'Our luxury gift set is the ultimate matcha experience. It includes our highest-grade ceremonial matcha, handcrafted ceramic bowl, artisan bamboo whisk, bamboo scoop, and a beautiful wooden whisk holder, all presented in an elegant gift box.',
         price: 89.99,
-        image: 'images/products/luxury-gift.jpg',
+        image: 'images/products/luxury-gift.svg',
         category: 'gifts',
         featured: true
     },
@@ -108,7 +108,7 @@ const products = [
         shortDescription: 'Traditional bamboo scoop for measuring matcha.',
         description: 'This traditional bamboo scoop (chashaku) is carved from a single piece of bamboo and designed to measure the perfect amount of matcha powder for a single serving. An essential tool for authentic matcha preparation.',
         price: 7.99,
-        image: 'images/products/bamboo-scoop.jpg',
+        image: 'images/products/bamboo-scoop.svg',
         category: 'accessories',
         featured: false
     }
