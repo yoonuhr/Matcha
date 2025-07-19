@@ -2,29 +2,6 @@
  * Main JavaScript file for Cozy Matcha Shop
  */
 
-// DOM ready function
-document.addEventListener('DOMContentLoaded', function() {
-    console.log('Cozy Matcha Shop initialized');
-    
-    // Initialize navigation
-    initNavigation();
-    
-    // Initialize products
-    initProducts();
-    
-    // Initialize cart
-    initCart();
-    
-    // Initialize modals
-    initModals();
-    
-    // Initialize contact form
-    initContactForm();
-    
-    // Initialize scroll reveal
-    setTimeout(initScrollReveal, 100);
-});
-
 /**
  * Initialize navigation functionality
  */
