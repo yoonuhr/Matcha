@@ -317,8 +317,9 @@ function initProducts() {
             });
         });
     }
-}/
-**
+}
+
+/**
  * Initialize contact form functionality
  */
 function initContactForm() {
@@ -350,9 +351,10 @@ function initContactForm() {
             contactForm.reset();
         });
     }
-}/**
- * Ini
-tialize scroll reveal animations
+}
+
+/**
+ * Initialize scroll reveal animations
  */
 function initScrollReveal() {
     const revealElements = document.querySelectorAll('.section-title, .about-content, .products-grid, .contact-content, .feature');
@@ -391,9 +393,10 @@ function initScrollReveal() {
 document.addEventListener('DOMContentLoaded', function() {
     // Add a slight delay to ensure all elements are properly rendered
     setTimeout(initScrollReveal, 100);
-});/**
- * 
-Error handling and validation functions
+});
+
+/**
+ * Error handling and validation functions
  */
 
 // Global error handler

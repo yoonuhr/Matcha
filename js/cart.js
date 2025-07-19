@@ -118,10 +118,10 @@ function updateCartUI() {
             const cartItem = document.createElement('div');
             cartItem.className = 'cart-item';
             
-            // Create placeholder image div (in a real implementation, this would be an actual image)
+            // Create product image
             const imageDiv = document.createElement('div');
-            imageDiv.className = 'cart-item-image-placeholder';
-            imageDiv.innerHTML = `<i class="fas fa-leaf"></i>`;
+            imageDiv.className = 'cart-item-image-container';
+            imageDiv.innerHTML = `<img src="${item.image}" alt="${item.name}" class="cart-item-image">`;
             
             const itemDetails = document.createElement('div');
             itemDetails.className = 'cart-item-details';
@@ -394,8 +394,9 @@ function initPaymentConfirmation(order) {
 function isValidEmail(email) {
     const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
     return emailRegex.test(email);
-}/**
+}
 
+/**
  * Additional validation and error handling for cart functionality
  */
 
