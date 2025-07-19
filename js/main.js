@@ -155,25 +155,26 @@ function initProducts() {
     const modal = document.getElementById('product-modal');
     const modalContent = document.querySelector('.product-details');
     
-    // Add "All" filter button
-    const allButton = document.querySelector('.filter-btn[data-category="all"]');
+    // Clear existing filter buttons except the default "All" button and recreate them
+    const existingButtons = categoryFilter.querySelectorAll('.filter-btn:not([data-category="all"])');
+    existingButtons.forEach(btn => btn.remove());
+    
+    // Ensure "All" button exists and is properly configured
+    let allButton = document.querySelector('.filter-btn[data-category="all"]');
     if (!allButton) {
-        const allButton = document.createElement('button');
-        allButton.className = 'filter-btn active'; // Active by default
+        allButton = document.createElement('button');
+        allButton.className = 'filter-btn active';
         allButton.dataset.category = 'all';
-        allButton.textContent = 'All Products';
-        allButton.addEventListener('click', function() {
-            // Remove active class from all buttons
-            document.querySelectorAll('.filter-btn').forEach(btn => {
-                btn.classList.remove('active');
-            });
-            // Add active class to clicked button
-            this.classList.add('active');
-            // Filter products
-            displayProducts(getAllProducts());
-        });
+        allButton.textContent = 'All';
         categoryFilter.appendChild(allButton);
     }
+    
+    // Add click handler to All button
+    allButton.addEventListener('click', function() {
+        document.querySelectorAll('.filter-btn').forEach(btn => btn.classList.remove('active'));
+        this.classList.add('active');
+        displayProducts(getAllProducts());
+    });
     
     // Add category filter buttons
     const categories = getAllCategories();
